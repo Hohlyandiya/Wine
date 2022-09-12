@@ -1,0 +1,667 @@
+*{
+    margin: 0px;
+}
+
+.text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+}
+
+@font-face{
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat-Regular.ttf');
+    font-style: normal;
+    font-weight: 400px;
+
+}
+
+@font-face{
+    font-family: 'PlayfairDisplay';
+    src: url('../fonts/PlayfairDisplay-Regular.ttf');
+    font-style: normal;
+    font-weight: 400px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header{
+    background-image: url('../img/bgc.jpg');
+    min-width: 1920px;
+    min-height: 900px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    min-width: 1110px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header__content{
+    min-height: 100%;
+}
+
+.block-menu{
+    margin-top: 30px;
+    min-width: 100%;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__text{
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.menu-container{
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu-content{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    padding: 13px 107px;
+}
+
+.menu-content:last-child{
+    border-right: none;
+}
+
+.menu{
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header-button-container{
+    margin-bottom: 150px;
+}
+
+.header-button-content{
+    display: flex;
+    gap: 30px;
+}
+
+.button-wine-card{
+    min-width: 203px;
+    min-height: 50px;
+}
+
+.button-tasting{
+    min-width: 182px;
+    min-height: 50px;
+}
+
+.button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button--dark-yellow{
+    background: #99862A;
+}
+
+.best-taste{
+    display: flex;
+    justify-content: center;
+    min-width: 1920px;
+    min-height: 856px;
+    background: #282828;
+}
+
+.container--border{
+    margin: 100px 0px;
+    min-height: 656px;
+    border: 3px solid #C4C4C4;
+}
+
+.content__elements{
+    padding: 60px 0px;
+    gap: 40px;
+    justify-content: start;
+}
+
+.best-taste-header{
+    margin: 0px;
+    font-family: 'PlayfairDisplay';
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center; 
+    color: #FFFFFF;
+}
+
+.trait{
+    width: 160px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.best-taste__text--color{
+    font-size: 16px;
+    color: #FFFFFF;
+    max-width: 733px;
+}
+
+.wineglass-icon{
+    margin-top: 10px;
+    background-image: url('../img/wineglass.svg');
+    background-size: 160px;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 160px;
+    min-height: 160px;
+}
+
+.new-collections{
+    display: flex;
+    justify-content: center;
+    min-width: 1920px;
+    min-height: 1038px;
+    background: #E6E3C4;
+}
+
+.new-collections-container{
+    min-width: 1110px;
+    margin: 80px 0px;
+    border-top: 1px solid #998431;
+    border-bottom: 1px solid #998431;
+}
+
+.new-collections-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px;
+}
+
+.harvest-of-marseille{
+    display: flex;
+    flex-direction: column;
+    max-width: 445px;
+    gap: 30px;
+}
+
+.harvest-of-marseille-img{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.harvest-of-marseille__img-1{
+    min-width: 540px;
+    min-height: 500px;
+    background-size: cover;
+    background-image: url('../img/Rectangle\ 11.jpg');
+}
+
+.harvest-of-marseille-img-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.harvest-of-marseille__img-2{
+    min-width: 255px;
+    min-height: 228px;
+    background-size: cover;
+    background-image: url('../img/Rectangle\ 12.jpg');
+}
+
+.harvest-of-marseille__img-3{
+    min-width: 255px;
+    min-height: 228px;
+    background-size: cover;
+    background-image: url('../img/Rectangle\ 13.jpg');
+}
+
+.new-collections-description{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.harvest-of-marseille-header{
+    font-family: 'PlayfairDisplay';
+    font-size: 36px;
+    line-height: 150%;
+    color: #282828;
+    max-width: 298px;
+}
+
+.trait--color{
+    border-top: 1px solid #282828;
+}
+
+.harvest-of-marseille__text--color{
+    text-align: start;
+    color: #282828;
+}
+
+tr{
+    display: flex;
+}
+
+.wine__text{
+    display: flex;
+    align-items: center;
+    color: #282828;
+    padding: 26px 24px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.wine-description-header{
+    font-family: 'PlayfairDisplay';
+    font-size: 18px;
+    line-height: 150%;
+    color: #282828;
+}
+
+.wine-description__text{
+    text-align: start;
+    padding: 15px 30px;
+    border-bottom: 1px solid black;
+    color: #282828;
+}
+
+.harvest-of-marseille__button--dark-yellow{
+    max-width: 254px;
+    max-height: 50px;
+    background-color:#99862A;
+}
+
+.sign-up-for-a-tasting{
+    position: relative;
+    min-width: 1920px;
+    min-height: 767px;
+    background: #282828;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-for-a-tasting-header{
+    position: absolute;
+    top: 90px;
+    left: 715px;
+    padding: 10px 50px;
+    font-family: 'PlayfairDisplay';
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #282828;
+}
+
+.sign-up-for-a-tasting__img-1{
+    position: absolute;
+    top: 60px;
+    left: 375px;
+    width: 260px;
+    height: 260px;
+    background-image: url('../img/image.svg');
+}
+
+.sign-up-for-a-tasting__img-2{
+    position: absolute;
+    top: 64px;
+    right: 352px;
+    width: 260px;
+    height: 200px;
+    background-image: url('../img/image\ \(1\).svg');
+}
+
+.sign-up-for-a-tasting__container{
+    margin-top: 129px;
+    margin-bottom: 100px;
+    min-height: 538px;
+    border: 3px solid #C4C4C4;
+}
+
+.sign-up-for-a-tasting__content{
+    padding-top: 65px;
+    padding-bottom: 80px;
+}
+
+.trait--width{
+    width: 118px;
+    margin-bottom: 40px;
+}
+
+.sign-up-for-a-tasting__text--color{
+    font-size: 16px;
+    color: #FFFFFF;
+    max-width: 539px;
+}
+
+.customer-form{
+    margin-top: 81px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 540px;
+}
+
+.customer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.form-customer{
+    min-width: 255px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: #282828;
+    outline: none;
+}
+
+.form__button--background{
+    margin-top: 50px;
+    width: 541px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    background-color: #282828;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    min-width: 1920px;
+    min-height: 220px;
+    background: #998431;
+}
+
+.footer-container{
+    margin: 50px 0px;
+    min-width: 1110px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 94px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer__text--color{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact-us{
+    display: flex;
+
+}
+
+.contact-us-content{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 19px 58px;
+}
+
+.contact-us-content:last-child{
+    border-right: none;
+    padding-right: 94px;
+}
+
+.contact-us-content:last-child{
+    border-right: none;
+    padding-left: 94px;
+}
+
+.menu__text--font-weight{
+    font-weight: 600;
+}
+
+.social-network{
+    display: flex;
+    gap: 35px;
+}
+
+.youtube{
+    min-width: 26px;
+    min-height: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-image: url('../img/Vector.svg');
+}
+
+.vk{
+    min-width: 26px;
+    min-height: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-image: url('../img/Vector\ \(1\).svg');
+}
+
+.facebook{
+    min-width: 26px;
+    min-height: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-image: url('../img/Vector\ \(2\).svg');
+}
+
+@media (max-width: 1367px){
+    .header{
+        min-width: 1366px;
+    }
+
+    .container{
+        max-width: 1110px;
+    }
+
+    .best-taste{
+        min-width: 1366px;
+    }
+
+    .new-collections{
+        min-width: 1366px;
+    }
+
+    .sign-up-for-a-tasting{
+        min-width: 1366px;
+    }
+
+    .sign-up-for-a-tasting-header{
+        top: 90px;
+        left: 440px;
+        padding: 10px 50px;
+    }
+
+    .sign-up-for-a-tasting__img-1{
+        top: 60px;
+        left: 100px;
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+    
+    .sign-up-for-a-tasting__img-2{
+        top: 70px;
+        right: 90px;
+        width: 200px;
+        height: 150px;
+        background-size: cover;
+    }
+
+    .footer{
+        min-width: 1366px;
+    }
+
+    .footer-container{
+        margin: 50px 0px;
+        max-width: 1110px;
+    }
+
+    .menu-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        min-width: 276.7px;
+        min-height: 50px;
+    }
+}
+
+@media (max-width: 1025px){
+    .header{
+        min-width: 1024px;
+    }
+
+    .container{
+        min-width: 870px;
+    }
+
+    .best-taste{
+        min-width: 1024px;
+    }
+
+    .new-collections{
+        min-width: 1024px;
+    }
+
+    .new-collections-container{
+        min-width: 870px;
+        margin: 80px 0px;
+    }
+    
+    .new-collections-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .harvest-of-marseille-img{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .harvest-of-marseille__img-1{
+        max-width: 540px;
+        max-height: 500px;
+        background-size: cover;
+        margin-bottom: 30px;
+        background-image: url('../img/Rectangle\ 11.jpg');
+    }
+    
+    .harvest-of-marseille-img-content{
+        min-width: 540px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .harvest-of-marseille__img-2{
+        max-width: 150px;
+        max-height: 150px;
+        background-size: cover;
+        background-image: url('../img/Rectangle\ 12.jpg');
+    }
+    
+    .harvest-of-marseille__img-3{
+        max-width: 150px;
+        max-height: 150px;
+        background-size: cover;
+        background-image: url('../img/Rectangle\ 13.jpg');
+    }
+
+    .harvest-of-marseille{
+        margin-bottom: 30px;
+        align-items: center;
+        max-width: 470px;
+    }
+
+    .harvest-of-marseille-header{
+        max-width: 470px;
+    }
+
+    .sign-up-for-a-tasting{
+        min-width: 1024px;
+    }
+
+    .sign-up-for-a-tasting-header{
+        top: 90px;
+        left: 275px;
+        padding: 10px 50px;
+    }
+
+    .sign-up-for-a-tasting__img-1{
+        top: 80px;
+        left: 50px;
+        width: 160px;
+        height: 160px;
+        background-size: cover;
+    }
+    
+    .sign-up-for-a-tasting__img-2{
+        top: 80px;
+        right: 50px;
+        width: 160px;
+        height: 130px;
+        background-size: cover;
+    }
+
+    .footer{
+        min-width: 1024px;
+    }
+
+    .footer-container{
+        margin: 50px 0px;
+        max-width: 870px;
+        min-width: 0px;
+    }
+
+    .footer-links{
+        padding: 20px 40px;
+    }
+    
+
+    .menu-content{
+        min-width: 216.6px;
+        min-height: 50px;
+    }
+}
