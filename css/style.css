@@ -487,6 +487,68 @@ tr{
     background-image: url('../img/Vector\ \(2\).svg');
 }
 
+@media (max-width: 1601px){
+    .header{
+        min-width: 1600px;
+    }
+
+    .container{
+        max-width: 1110px;
+    }
+
+    .best-taste{
+        min-width: 1600px;
+    }
+
+    .new-collections{
+        min-width: 1600px;
+    }
+
+    .sign-up-for-a-tasting{
+        min-width: 1600px;
+    }
+
+    .sign-up-for-a-tasting-header{
+        top: 90px;
+        left: 560px;
+        padding: 10px 50px;
+    }
+
+    .sign-up-for-a-tasting__img-1{
+        top: 60px;
+        left: 210px;
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+    
+    .sign-up-for-a-tasting__img-2{
+        top: 70px;
+        right: 205px;
+        width: 200px;
+        height: 150px;
+        background-size: cover;
+    }
+
+    .footer{
+        min-width: 1600px;
+    }
+
+    .footer-container{
+        margin: 50px 0px;
+        max-width: 1110px;
+    }
+
+    .menu-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        min-width: 276.7px;
+        min-height: 50px;
+    }
+}
+
 @media (max-width: 1367px){
     .header{
         min-width: 1366px;
