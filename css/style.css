@@ -303,7 +303,6 @@ tr{
 }
 
 .sign-up-for-a-tasting{
-    position: relative;
     min-width: 1920px;
     min-height: 767px;
     background: #282828;
@@ -311,10 +310,14 @@ tr{
     justify-content: center;
 }
 
+.sign-up-for-a-tasting__position{
+    position: relative;
+}
+
 .sign-up-for-a-tasting-header{
     position: absolute;
     top: 90px;
-    left: 715px;
+    left: 330px;
     padding: 10px 50px;
     font-family: 'PlayfairDisplay';
     font-size: 36px;
@@ -327,7 +330,7 @@ tr{
 .sign-up-for-a-tasting__img-1{
     position: absolute;
     top: 60px;
-    left: 375px;
+    left: -40px;
     width: 260px;
     height: 260px;
     background-image: url('../img/image.svg');
@@ -336,7 +339,7 @@ tr{
 .sign-up-for-a-tasting__img-2{
     position: absolute;
     top: 64px;
-    right: 352px;
+    right: -50px;
     width: 260px;
     height: 200px;
     background-image: url('../img/image\ \(1\).svg');
@@ -489,7 +492,7 @@ tr{
 
 @media (max-width: 1601px){
     .header{
-        min-width: 1600px;
+        min-width: 1367px;
     }
 
     .container{
@@ -497,26 +500,26 @@ tr{
     }
 
     .best-taste{
-        min-width: 1600px;
+        min-width: 1367px;
     }
 
     .new-collections{
-        min-width: 1600px;
+        min-width: 1367px;
     }
 
     .sign-up-for-a-tasting{
-        min-width: 1600px;
+        min-width: 1367px;
     }
 
     .sign-up-for-a-tasting-header{
         top: 90px;
-        left: 560px;
+        left: 320px;
         padding: 10px 50px;
     }
 
     .sign-up-for-a-tasting__img-1{
         top: 60px;
-        left: 210px;
+        left: -30px;
         width: 200px;
         height: 200px;
         background-size: cover;
@@ -524,14 +527,14 @@ tr{
     
     .sign-up-for-a-tasting__img-2{
         top: 70px;
-        right: 205px;
+        right: -35px;
         width: 200px;
         height: 150px;
         background-size: cover;
     }
 
     .footer{
-        min-width: 1600px;
+        min-width: 1367px;
     }
 
     .footer-container{
@@ -551,34 +554,34 @@ tr{
 
 @media (max-width: 1367px){
     .header{
-        min-width: 1366px;
+        min-width: 1025px;
     }
 
     .container{
-        max-width: 1110px;
+        min-width: 1110px;
     }
 
     .best-taste{
-        min-width: 1366px;
+        min-width: 1025px;
     }
 
     .new-collections{
-        min-width: 1366px;
+        min-width: 1025px;
     }
 
     .sign-up-for-a-tasting{
-        min-width: 1366px;
+        min-width: 1025px;
     }
 
     .sign-up-for-a-tasting-header{
         top: 90px;
-        left: 440px;
+        left: 330px;
         padding: 10px 50px;
     }
 
     .sign-up-for-a-tasting__img-1{
         top: 60px;
-        left: 100px;
+        left: -35px;
         width: 200px;
         height: 200px;
         background-size: cover;
@@ -586,14 +589,14 @@ tr{
     
     .sign-up-for-a-tasting__img-2{
         top: 70px;
-        right: 90px;
+        right: -35px;
         width: 200px;
         height: 150px;
         background-size: cover;
     }
 
     .footer{
-        min-width: 1366px;
+        min-width: 1025px;
     }
 
     .footer-container{
@@ -608,6 +611,75 @@ tr{
         padding: 0px;
         min-width: 276.7px;
         min-height: 50px;
+    }
+}
+
+@media (max-width: 1281px){
+    .header{
+        min-width: 1025px;
+    }
+
+    .container{
+        min-width: 870px;
+    }
+
+    .menu-content{
+        min-width: 240px;
+        min-height: 50px;
+    }
+
+    .best-taste{
+        min-width: 1025px;
+    }
+
+    .new-collections{
+        min-width: 1025px;
+    }
+
+    .new-collections-container{
+        min-width: 1010px;
+    }
+
+    .sign-up-for-a-tasting{
+        min-width: 1025px;
+    }
+
+    .sign-up-for-a-tasting-header{
+        top: 90px;
+        left: 200px;
+        padding: 10px 50px;
+    }
+
+    .sign-up-for-a-tasting__img-1{
+        top: 60px;
+        left: -35px;
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+    
+    .sign-up-for-a-tasting__img-2{
+        top: 70px;
+        right: -35px;
+        width: 200px;
+        height: 150px;
+        background-size: cover;
+    }
+
+    .footer{
+        min-width: 1025px;
+    }
+
+    .footer-container{
+        margin: 50px 0px;
+        min-width: 1025px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-links{
+        min-width: 776px;
     }
 }
 
@@ -687,13 +759,13 @@ tr{
 
     .sign-up-for-a-tasting-header{
         top: 90px;
-        left: 275px;
+        left: 200px;
         padding: 10px 50px;
     }
 
     .sign-up-for-a-tasting__img-1{
         top: 80px;
-        left: 50px;
+        left: -35px;
         width: 160px;
         height: 160px;
         background-size: cover;
@@ -701,7 +773,7 @@ tr{
     
     .sign-up-for-a-tasting__img-2{
         top: 80px;
-        right: 50px;
+        right: -35px;
         width: 160px;
         height: 130px;
         background-size: cover;
